@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EBDEF0">
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:numColumns="1"
+        android:orientation="vertical"
+        tools:context="avrutti.labs.app.avruttipc.MainActivity"
+        >
+        <TextView
+            android:id="@+id/services"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:text="Services"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+
+            <LinearLayout
+                android:id="@+id/project_report_writing"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#F9EBEA">
+
+
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:padding="8dp"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/electrician1"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electician"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="18dp"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/reseach_paper_writing"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#F9EBEA"
+                android:backgroundTint="#F9EBEA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:padding="8dp"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/p"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Plumber"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="18dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:id="@+id/plagiarism"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#F9EBEA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:padding="8dp"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cs"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Car Service"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="18dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/common_mistakes"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#F9EBEA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:padding="8dp"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/b"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bike Service"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="18dp"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:id="@+id/references_types"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#F9EBEA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:padding="8dp"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/h"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cleaning"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="18dp"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/paper_publication"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#F9EBEA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:padding="10dp"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ph"/>
+
+                <TextView
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Photographer"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="18dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:id="@+id/dj"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#ADD8E6">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:padding="8dp"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/djbooking"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DJ booking"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="18dp"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/others"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#B0E0E6">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:padding="10dp"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/others"/>
+
+                <TextView
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AC &amp; others"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="18dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </GridLayout>
+</ScrollView>

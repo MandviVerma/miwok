@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:minHeight="@dimen/list_item_height"
+    android:background="@color/tan_bacckground"
+    android:id="@+id/listbg"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/one"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+
+
+
+    <LinearLayout
+    android:id="@+id/text_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:orientation="vertical"
+    android:padding="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image"
+    android:background="@color/category_numbers">
+
+    <TextView
+        android:id="@+id/miwoktextview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        tools:text="lutti"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/defaulttextview"
+        android:layout_width="match_parent"
+        tools:text="one"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+</LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/playbutton"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:visibility="visible"
+        android:src="@drawable/playicon"/>
+
+
+    <ImageView
+        android:id="@+id/pausebutton"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/pauseicon"/>
+</RelativeLayout>

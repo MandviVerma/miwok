@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF69B4</color>
+    <color name="colorPrimaryDark">#FF1493</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tan_bacckground">#FFF7DA</color>
+
+
+    <color name="category_numbers">#1E90FF</color>
+</resources>

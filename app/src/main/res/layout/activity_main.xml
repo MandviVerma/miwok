@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/Numbers_main"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textAllCaps="true"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:text="Numbers"
+        android:background="#FFDAB9"
+        android:textColor="#000"
+        android:layout_marginTop="12dp"
+         />
+    <TextView
+        android:id="@+id/color_main"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/Numbers_main"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textAllCaps="true"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:text="color"
+        android:background="#FFE4B5"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/phrases_main"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/color_main"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textAllCaps="true"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:text="Phrases"
+        android:background="#FFEFD5"
+        android:textColor="#000"
+        />
+
+</RelativeLayout>
